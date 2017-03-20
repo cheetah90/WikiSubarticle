@@ -19,3 +19,6 @@ The Java program **WikiSubarticle** leverages [WikiBrain](https://shilad.github.
 
 ## Step 2 - Set up Python Flask
 From *./flask_classifiers/*, run `python classifiers_server.py`
+
+## Step 3 - Run the Subarticle Classifier
+
