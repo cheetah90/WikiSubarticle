@@ -17,8 +17,8 @@ Python >= 3.5
 
 Flask >= 0.12
 
-## Instructions
-### Step 1 - Set up WikiSubarticle
+# Instructions
+## Step 1 - Set up WikiSubarticle
 The Java program **WikiSubarticle** leverages [WikiBrain](https://shilad.github.io/wikibrain/) to provide technical infrastucture to access Wikipedia content. Please follow the instructions on [WikiBrain](https://shilad.github.io/wikibrain/) to set up this part. 
 
-### Step 2 - Set up Python Flask
+## Step 2 - Set up Python Flask
