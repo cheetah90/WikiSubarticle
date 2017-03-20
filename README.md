@@ -18,4 +18,4 @@ Flask >= 0.12
 The Java program **WikiSubarticle** leverages [WikiBrain](https://shilad.github.io/wikibrain/) to provide technical infrastucture to access Wikipedia content. Please follow the instructions on [WikiBrain](https://shilad.github.io/wikibrain/) to set up this part. 
 
 ## Step 2 - Set up Python Flask
-From *./flask_classifiers/*, 
+From *./flask_classifiers/*, run `python classifiers_server.py`
