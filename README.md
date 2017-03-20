@@ -7,7 +7,11 @@ It contains three parts:
 3. The **groud truth ratings** of subarticle candidates in *./gold_standard_datasets/* that allow for training your own subarticle classifiers
 
 ## Requirements
-
+Java >= 1.7
+Maven >= 2
+Postgres >= 8.6
+Python >= 3.5
+Flask >= 0.12
 
 ## Instructions
 ### Step 1 - Set up WikiSubarticle
