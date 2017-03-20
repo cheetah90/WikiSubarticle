@@ -17,6 +17,8 @@ Flask >= 0.12
 ## Step 1 - Set up WikiSubarticle
 The Java program **WikiSubarticle** leverages [WikiBrain](https://shilad.github.io/wikibrain/) to provide technical infrastucture to access Wikipedia content. Please follow the instructions on [WikiBrain](https://shilad.github.io/wikibrain/) to set up this part. 
 
+**Note: ** Currently, **WikiSubarticle** requires the training the MilneWitten Semantic Relatedness module of WikiBrain. Please refer to this page for [details of how to train the module](https://shilad.github.io/wikibrain/tutorial/sr.html)
+
 ## Step 2 - Set up Python Flask
 From *./flask_classifiers/*, run `python classifiers_server.py`
 
