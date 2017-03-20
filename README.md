@@ -24,3 +24,12 @@ From *./flask_classifiers/*, run `python classifiers_server.py`. Doing so will s
 
 ## Step 3 - Run the Subarticle Classifier
 
+`wb-java.sh org.wikibrain.cookbook.core.SubarticleClassifier [main article title] [lang_code] [type of dataset] [rating options] -c [configuration]`
+
+**Specifications of the parameters:**  
+[main article title]: the program will find the subarticles of this Wikipedia article  
+[lang_code]: three options "en" "es" "zh"  
+[type of dataset]: one option "popular" (currently)
+[rating options]: two options "2" "2.5" "3"
+
+The meanings for each parameter could be seen in the paper. 
