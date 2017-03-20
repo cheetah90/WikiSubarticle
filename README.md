@@ -8,4 +8,5 @@ It contains three parts:
 
 
 # Instructions
-## Step 1. Set up WikiSubarticle
+## Step 1 - Set up WikiSubarticle
+The Java program **WikiSubarticle** leverages the [WikiBrain](https://shilad.github.io/wikibrain/)
