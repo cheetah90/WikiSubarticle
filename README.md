@@ -6,7 +6,11 @@ It contains three parts:
 2. The Python Flask program that serves the **trained Subarticle classifiers** in *./flask_classifiers/*
 3. The **groud truth ratings** of subarticle candidates in *./gold_standard_datasets/* that allow for training your own subarticle classifiers
 
+# Requirements
+
 
 # Instructions
 ## Step 1 - Set up WikiSubarticle
-The Java program **WikiSubarticle** leverages the [WikiBrain](https://shilad.github.io/wikibrain/)
+The Java program **WikiSubarticle** leverages [WikiBrain](https://shilad.github.io/wikibrain/) to provide technical infrastucture to access Wikipedia content. Please follow the instructions on [WikiBrain](https://shilad.github.io/wikibrain/) to set up this part. 
+
+## Step 2 - Set up Python Flask
