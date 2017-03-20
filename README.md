@@ -3,5 +3,9 @@ This is the repo for CSCW2017 paper *Lin, Y., Yu, B., Hall, A., and Hecht, B. (2
 
 It contains three parts:
 1. The Java program **WikiSubarticle** in *./wikibrain_w_subarticle_plugin/*
-2. The Python Flask program that serves the trained Subarticle classifiers in *./flask_classifiers/*
-3. The groud truth rating of subarticle candidates in *./gold_standard_datasets/* that allow for training your own subarticle classifiers
+2. The Python Flask program that serves the **trained Subarticle classifiers** in *./flask_classifiers/*
+3. The **groud truth ratings** of subarticle candidates in *./gold_standard_datasets/* that allow for training your own subarticle classifiers
+
+
+# Instructions
+## Step 1. Set up WikiSubarticle
