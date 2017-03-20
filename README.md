@@ -20,7 +20,7 @@ The Java program **WikiSubarticle** leverages [WikiBrain](https://shilad.github.
 **Note: ** Currently, **WikiSubarticle** requires the training the MilneWitten Semantic Relatedness module of WikiBrain. Please refer to this page for [details of how to train the module](https://shilad.github.io/wikibrain/tutorial/sr.html)
 
 ## Step 2 - Set up Python Flask
-From *./flask_classifiers/*, run `python classifiers_server.py`
+From *./flask_classifiers/*, run `python classifiers_server.py`. Doing so will serve the trained subarticle classifiers through Flask so you don't need to train your own model
 
 ## Step 3 - Run the Subarticle Classifier
 
