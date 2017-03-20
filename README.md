@@ -8,9 +8,13 @@ It contains three parts:
 
 ## Requirements
 Java >= 1.7
+
 Maven >= 2
+
 Postgres >= 8.6
+
 Python >= 3.5
+
 Flask >= 0.12
 
 ## Instructions
