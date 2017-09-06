@@ -19,7 +19,7 @@ The Java program **WikiSubarticle** leverages [WikiBrain](https://shilad.github.
 
 **Note:** Currently, **WikiSubarticle** requires the training the MilneWitten Semantic Relatedness module of WikiBrain. Please refer to this page for [details of how to train the module](https://shilad.github.io/wikibrain/tutorial/sr.html)
 
-### Quick summary of the essential commands (explanations could be found in the above links)
+**Quick summary of the essential commands (explanations could be found in the above links)**
 1. `mvn generate-sources`
 2. `mvn -f wikibrain-utils/pom.xml clean compile exec:java -Dexec.mainClass=org.wikibrain.utils.ResourceInstaller`
 
