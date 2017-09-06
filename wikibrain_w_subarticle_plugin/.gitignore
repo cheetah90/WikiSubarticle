@@ -34,15 +34,9 @@ lib/
 */lib/
 
 # misc
-wp-java.sh
-
-
-
 *.jar
-
 *.pdf
-
-wb-java.sh
+# wb-java.sh
 *.tsv
 
 customized.conf
