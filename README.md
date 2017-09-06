@@ -22,6 +22,9 @@ The Java program **WikiSubarticle** leverages [WikiBrain](https://shilad.github.
 **Quick summary of the essential steps** (explanations could be found in the above links)
 1. `mvn generate-sources`
 2. `mvn -f wikibrain-utils/pom.xml clean compile exec:java -Dexec.mainClass=org.wikibrain.utils.ResourceInstaller`
+3. `screen -S subarticle_ingestions`
+4. `export JAVA_OPTS="-d64 -Xmx128000M -server"`
+4. `./wb-java.sh org.wikibrain.Loader -l en,sv,de,nl,fr,ru,it,es,pl,vi,ja,pt,zh,uk,ca,fa,no,ar,fi,hu,id,ro,cs,ko,sr,simple -s fetchlinks -s download -s dumploader -s redirects -s wikitext -s lucene -s phrases -s concepts -s universal -s wikidata -s spatial -c customized.conf`
 
 ## Step 2 - Set up Python Flask
 From *./flask_classifiers/*, run `python classifiers_server.py`. Doing so will serve the trained subarticle classifiers through Flask so you don't need to train your own model
