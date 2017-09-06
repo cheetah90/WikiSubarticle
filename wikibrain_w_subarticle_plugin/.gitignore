@@ -36,7 +36,7 @@ lib/
 # misc
 *.jar
 *.pdf
-# wb-java.sh
+wb-java.sh
 *.tsv
 
 customized.conf
